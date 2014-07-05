@@ -28,7 +28,6 @@ class AkiraRenderWindow(OpenGLWindow):
         self.create_shader()
         self.create_vao()
 
-
     def create_shader(self):
         self.m_program = QOpenGLShaderProgram(self)
 

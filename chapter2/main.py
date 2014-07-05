@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     window = AkiraRenderWindow()
     window.setFormat(surface_format)
-    window.resize(640, 480)
+    window.resize(800, 600)
     window.show()
 
     window.setAnimating(True)
